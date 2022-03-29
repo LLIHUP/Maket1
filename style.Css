@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 1440px;
+    }
+
+main {
+    margin: auto;
+    max-width: 1440px;
+    }
+
+header{
+    display: flex;
+}
+
+.box-header {
+width: 1440px;
+height: 545px;
+left: 0px;
+top: 0px;
+background: #EEEEEE;
+}
+.box-selection1 {
+    display: flex;
+    margin-left: 0px;
+}
+.form-group h2 {
+    margin-left: 167px;
+}
+.form-group p{
+    margin-left: 167px;
+}
+.form-group input {
+    margin-left: 167px;
+}
+.ner    {
+    margin-bottom: 50px;
+}
+
+.nav  {
+    display: flex;
+    margin-left: 300px;
+}
+
+.nav p {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.one {
+    display: flex;
+}
+section img {
+    margin-left: 170px;
+}
+
+.box  h2  {
+margin: 0%;
+font-size: 50px;
+margin-left: 20px;
+
+}
+.box p {
+    margin: 0%;
+    margin-left: 20px;
+}
+.box input  {
+    margin-left: 20px; 
+}
+.box-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-selection1 {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.box-selection1 input {
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.web   {
+    background: #FB565A;
+}
+.soft {
+    background: #00CA74;
+}
+
+.prezent {
+    background: #EFC849;
+}
+ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+    color: #FB565A;
+   
+}
+ul {
+    list-style: none;
+}
+
+.podval1 h2 {
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+.podval1 p, h3 {
+font-size: 16px;   
+margin-left: 30px; 
+}
+
+.podval {
+    display: flex;
+    margin-top: 30px;
+}
+.podval2 h3, p  {
+    margin-left: 100px;
+}
+.podval3 {
+    display: flex;
+    margin: 0%;
+    width: 100px;
+    padding: 0%;
+}
+.podval3 h3{
+    font-size: 45px;
+}
+.podval2 p  {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.podval3 p {
+    font-weight: 400;
+    text-transform: none;
+    
+}
+
+.foot img {
+    /* width: max-content;
+    margin-left: 100px; */
+    width: 20%;
+	margin: 20px;
+
+}
