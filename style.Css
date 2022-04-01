@@ -3,24 +3,62 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    width: 1440px;
+    /* width: 1440px; */
     }
 
 main {
     margin: auto;
     max-width: 1440px;
     }
+.box-header {
+        background: #EEEEEE;
+        padding: 0px 50px;
+}
 
 header{
     display: flex;
+    align-items: center;
 }
 
-.box-header {
-width: 1440px;
-height: 545px;
-left: 0px;
-top: 0px;
-background: #EEEEEE;
+.banner {
+    padding-top: 40px;
+}
+
+.info_picture {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 100px;
+
+}
+
+nav {
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+nav a {
+    padding: 30px
+}
+
+.shape {
+    padding-left: 200px;    
+}
+
+.info {
+    display: flex;
+}
+.info_text h1 {
+    font-size: 55px;
+}
+
+.info_text button {
+    width: 200px;
+    padding: 10px 0px;
+    background: #FB565A;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    
 }
 .box-selection1 {
     display: flex;
@@ -39,40 +77,7 @@ background: #EEEEEE;
     margin-bottom: 50px;
 }
 
-.nav  {
-    display: flex;
-    margin-left: 300px;
-}
 
-.nav p {
-    margin-left: 100px;
-    margin-top: 30px;
-}
-
-.one {
-    display: flex;
-}
-section img {
-    margin-left: 170px;
-}
-
-.box  h2  {
-margin: 0%;
-font-size: 50px;
-margin-left: 20px;
-
-}
-.box p {
-    margin: 0%;
-    margin-left: 20px;
-}
-.box input  {
-    margin-left: 20px; 
-}
-.box-2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .box-selection1 {
     margin-top: 50px;
@@ -106,7 +111,7 @@ ul {
     list-style: none;
 }
 
-.podval1 h2 {
+/* .podval1 h2 {
     font-size: 45px;
     margin-left: 30px;
 }
@@ -139,7 +144,7 @@ margin-left: 30px;
     font-weight: 400;
     text-transform: none;
     
-}
+} */
 
 .foot img {
     /* width: max-content;
