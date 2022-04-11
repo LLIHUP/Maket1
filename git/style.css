@@ -1,0 +1,292 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.box-header {
+    background: #eeeeee;
+    padding: 0px 50px;
+    /* margin-left: 140px; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.banner {
+    padding-top: 40px;
+}
+
+.info_picture {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 100px;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+
+nav a {
+    padding: 30px;
+}
+
+.shape {
+    padding-left: 200px;
+}
+
+.info {
+    display: flex;
+    max-width: 100%;
+}
+
+.info_text h1 {
+    font-size: 55px;
+}
+
+.info_text button {
+    width: 200px;
+    padding: 10px 0px;
+    background: #fb565a;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+}
+
+.info_text button:active {
+    zoom: 0.99;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.order {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.order_form-group h3,
+.order_form-group p {
+    padding-left: 39px;
+}
+
+.order>.order_form-group {
+    width: 33.3%;
+}
+
+.order_form-group button {
+    padding: 10px 20px;
+    color: #eeeeee;
+    border-radius: 3px;
+    margin-left: 39px;
+    border: none;
+}
+
+.order_form-group button:active {
+    zoom: 0.99;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.button-red {
+    background: #fb565a;
+}
+
+.button-green {
+    background: #00ca74;
+}
+
+.button-yellow {
+    background: #efc849;
+}
+
+.ner {
+    margin-bottom: 50px;
+}
+
+.functions {
+    display: flex;
+    justify-content: center;
+}
+
+.functions h4 {
+    font-size: 45px;
+}
+
+.functions_card {
+    margin-left: 200px;
+}
+
+.functions_card_info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.functions_card_info>.functions_card_info_persent {
+    width: 33%;
+}
+
+.functions_card_info_persent {
+    line-height: 24px;
+}
+
+.functions_card_info_persent h4 {
+    line-height: 100px;
+}
+
+ul li:before {
+    content: "—";
+    position: relative;
+    left: -5px;
+    color: #fb565a;
+}
+
+ul {
+    list-style: none;
+    line-height: 60px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link>a {
+    width: 30%;
+    padding-left: 40px;
+}
+
+.map {
+    background-image: url(map1.svg);
+    height: 416px;
+    position: relative;
+}
+
+.map_address {
+    background-color: #ffffff;
+    width: 319px;
+    height: 308px;
+    line-height: 26px;
+    position: absolute;
+    top: 40px;
+    left: 135px;
+    text-align: center;
+}
+
+.map_address button {
+    width: 219px;
+    height: 50px;
+    /* left: 190px;
+top: 2108px; */
+    background: #fb565a;
+    color: #ffffff;
+    margin-top: 32px;
+}
+
+.map figure {
+    position: absolute;
+    top: 65px;
+    left: 820px;
+}
+
+footer {
+    height: 240px;
+    /* background: #00CA74; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.footer_social {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.footer_social_vk {
+    width: 81px;
+    height: 81px;
+    background-image: url(vk1.svg);
+    position: relative;
+    /* position: absolute;    */
+}
+
+.footer_social_fb {
+    width: 81px;
+    height: 81px;
+    background-image: url(fb1.svg);
+    position: relative;
+}
+
+.footer_social_in {
+    width: 81px;
+    height: 81px;
+    background-image: url(in1.png);
+    position: relative;
+}
+
+.footer_social_vk figure {
+    position: absolute;
+    top: 17px;
+    left: -16px;
+}
+
+.footer_social_fb figure {
+    position: absolute;
+    top: 14px;
+    left: -8px;
+}
+
+.footer_social_in figure {
+    position: absolute;
+    top: 4px;
+    left: -19px;
+}
+
+.footer_social_in img {
+    width: 40px;
+}
+
+.footer-text {
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 240px;
+}
+
+.footer-text h5 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+.footer-text p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        margin-left: 0;
+    }
+    .shape {
+        padding: 0;
+    }
+    .info_picture {
+        margin: 0;
+    }
+    .info_picture img {
+        max-width: 100%;
+    }
+}
