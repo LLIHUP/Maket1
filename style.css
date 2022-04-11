@@ -179,7 +179,7 @@ ul {
     background-color: #ffffff;
     width: 319px;
     height: 308px;
-    line-height: 18px;
+    line-height: 26px;
     position: absolute;
     top: 40px;
     left: 135px;
@@ -193,12 +193,13 @@ ul {
 top: 2108px; */
     background: #fb565a;
     color: #ffffff;
+    margin-top: 32px;
 }
 
 .map figure {
     position: absolute;
-    top: 59px;
-    left: 770px;
+    top: 65px;
+    left: 820px;
 }
 
 footer {
