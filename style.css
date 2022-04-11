@@ -136,7 +136,7 @@ nav a {
 }
 
 .functions_card_info>.functions_card_info_persent {
-    width: 40%;
+    width: 33%;
 }
 
 .functions_card_info_persent {
@@ -144,7 +144,7 @@ nav a {
 }
 
 .functions_card_info_persent h4 {
-    line-height: 1%;
+    line-height: 100px;
 }
 
 ul li:before {
@@ -156,7 +156,7 @@ ul li:before {
 
 ul {
     list-style: none;
-    line-height: 200%;
+    line-height: 60px;
 }
 
 .link {
