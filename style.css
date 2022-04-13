@@ -227,12 +227,16 @@ footer {
     width: 81px;
     height: 81px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer_social_link img {
+
+/* .footer_social_link img {
     margin-top: 32px;
     margin-left: 28px;
-}
+} */
 
 
 /* .footer_social_vk {
